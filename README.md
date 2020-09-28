@@ -8,21 +8,21 @@ We can say that we killed two birds with one stone.
 
 
 ## Summary
-- [Sample goals](#1-sample-goals)
-- [Wrappers and practices to build](#2-wrappers-and-practices-to-build)
-  - [Maven wrapper](#2-1-Maven-wrapper)
-  - [Gradle wrapper](#2-2-Gradle-wrapper)
-  - [Bom for Bills of Materials](#2-3-Bom-for-Bills-Of-Materials)
-- [xDD](#3-xDD)
-  - [DDD](#3-1-DDD)
-  - [BDD](#3-2-BDD)
-  - [TDD](#3-3-TDD)
-- [Living Documentation](#4-Living-Documentation)
-- [Hexagonal architecture](#5-Hexagonal-architecture)
-- [DataBase Managing tool](#6-DataBase-Managing-tool)
-- [I18n](#7-I18n)
-- [CI/CD best practices](#8-CICD-best-practices)
-- [Let's make it work](#9-Lets-make-it-work)
+- [1 Sample goals](#1--sample-goals)
+- [2 Wrappers and practices to build](#2-wrappers-and-practices-to-build)
+  - [2.1 Maven wrapper](#2-1-Maven-wrapper)
+  - [2.2 Gradle wrapper](#2-2-Gradle-wrapper)
+  - [2.3 Bom for Bills of Materials](#2-3-Bom-for-Bills-Of-Materials)
+- [3 xDD](#3-xDD)
+  - [3.1 DDD](#3-1-DDD)
+  - [3.2 BDD](#3-2-BDD)
+  - [3.3 TDD](#3-3-TDD)
+- [4 Living Documentation](#4-Living-Documentation)
+- [5 Hexagonal architecture](#5-Hexagonal-architecture)
+- [6 DataBase Managing tool](#6-DataBase-Managing-tool)
+- [7 I18n](#7-I18n)
+- [8 CI/CD best practices](#8-CICD-best-practices)
+- [9 Let's make it work](#9-Lets-make-it-work)
 
 ## 1 - Sample goals
 This sample was made to provide a concrete example on some best practices of the market regarding a java application providing Rest API.  
