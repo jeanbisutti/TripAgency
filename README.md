@@ -2,8 +2,8 @@
 
 ## WARNING FOR MAVEN USERS: THE 'TARGET' FOLDER IS REPLACED BY A FOLDER NAMED 'BUILD'
 And this for two reasons:
-- the first is that 'build' is more accurate than 'target'
-- the second is that it is the same as gradle
+- the first is that 'build' is more accurate than 'target'.
+- the second is that it is the same as gradle.  
 We can say that we killed two birds with one stone.
 
 ## Summary
