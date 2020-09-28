@@ -69,7 +69,14 @@ Liquibase: Database version control and deployment
 to fill
 ## 8 CI/CD best practices
 to fill
+
 ## 9 Let's make it work
+### Compilation
+To make the project build, you can use the following commands depending on the tool you want to use:
+**./mvnw install** or **./gradlew build**
+A better possibility is to encapsulate your command in a shell script with ana alias like **build** taht will launch you build operation.
+
+### Launching locally your rest api
 you can start the rest exposition by executing the following command line in the exposition folder:  
 **mvn clean spring-boot:run**  
 
