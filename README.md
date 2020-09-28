@@ -21,8 +21,8 @@ We can say that we killed two birds with one stone.
 - [Hexagonal architecture](#5-Hexagonal-architecture)
 - [DataBase Managing tool](#6-DataBase-Managing-tool)
 - [I18n](#7-I18n)
-- [CI/CD best practices](#8-CI/CD-best-practices)
-- [Let's make it work](#9-Let's-make-it-work)
+- [CI/CD best practices](#8-CICD-best-practices)
+- [Let's make it work](#9-Lets-make-it-work)
 
 ## 1 - Sample goals
 This sample was made to provide a concrete example on some best practices of the market regarding a java application providing Rest API.  
