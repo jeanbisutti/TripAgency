@@ -80,11 +80,11 @@ To make the project build, you can use the following commands depending on the t
 **./mvnw install** or **./gradlew build**
 
 ### Generate Cukedoctor documentation
-Here is the command to execute Cukedocotr documentation where
+Here is the command to execute Cukedoctor documentation where
 - CUKEDOCTOR_MAIN_JAR is the path to 'cukedoctor-main.jar'
 - PROJECT_VERSION is the version number of the project
 
-This command can be executed after the execution of Cucumber tests. You cna find some in the domain and e2e modules.
+This command can be executed after the execution of Cucumber tests. You can find some in the domain and e2e modules.
 
 ``
 java -jar ${CUKEDOCTOR_MAIN_JAR} 
