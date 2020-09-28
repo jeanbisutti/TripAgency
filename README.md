@@ -71,10 +71,42 @@ to fill
 to fill
 
 ## 9 Let's make it work
+For all th efollowing parts of this chapter, a better possibility is to encapsulate your command in a shell script. 
+Create also an alias that can be called from a project and do the work.
+Example **build** for a **./mvnw install** or **./gradlew build** command.
+
 ### Compilation
 To make the project build, you can use the following commands depending on the tool you want to use:
 **./mvnw install** or **./gradlew build**
-A better possibility is to encapsulate your command in a shell script with ana alias like **build** taht will launch you build operation.
+
+### Generate Cukedoctor documentation
+Here is the command to execute Cukedocotr documentation where
+- CUKEDOCTOR_MAIN_JAR is the path to 'cukedoctor-main.jar'
+- PROJECT_VERSION is the version number of the project
+
+This command can be executed after the execution of Cucumber tests. You cna find some in the domain and e2e modules.
+
+``
+java -jar ${CUKEDOCTOR_MAIN_JAR} 
+      -o "build/TripAgency/TripAgency_living_documentation-${PROJECT_VERSION}" 
+      -p "build/cucumber/TripAgency.json" 
+  	  -t "TripAgency_living_documentation" 
+  	  -f all 
+  	  -numbered 
+  	  -hideSummarySection 
+  	  -hideScenarioKeyword
+``
+
+### Generate sonar reports
+Here is the command to execute sonar reports generation where
+- SONAR_URL is the sonar server url
+- SONAR_CREDENTIALS are the credentials to send the reports
+
+sonar-scanner has to be installed for this command to work.
+
+``
+sonar-scanner -Dsonar.host.url=$SONAR_URL -Dsonar.login=$SONAR_CREDENTIALS -Dsonar.sourceEncoding=UTF-8
+``
 
 ### Launching locally your rest api
 you can start the rest exposition by executing the following command line in the exposition folder:  
