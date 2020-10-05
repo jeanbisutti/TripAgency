@@ -1,4 +1,4 @@
-package com.heiwait.tripagency.domain.cucumber;
+package {{project_namespace}}.{{project_name}}.domain.cucumber;
 
 import io.cucumber.junit.platform.engine.Cucumber;
 

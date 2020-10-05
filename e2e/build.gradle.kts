@@ -5,7 +5,7 @@ plugins {
 dependencies {
     implementation("com.github.cukedoctor:cukedoctor-main")
 
-    testImplementation("com.heiwait:domain:0.0.1-SNAPSHOT")
+    testImplementation("{{project_namespace}}:domain:{{project_version}}")
     testImplementation("io.cucumber:cucumber-java")
     testImplementation("io.cucumber:cucumber-junit-platform-engine")
     testImplementation("io.rest-assured:json-path")
@@ -16,8 +16,8 @@ dependencies {
     testImplementation("org.mockito:mockito-junit-jupiter")
 }
 
-group = "com.heiwait"
-version = "0.0.1-SNAPSHOT"
+group = "{{project_namespace}}"
+version = "{{project_version}}"
 
 apply { plugin("java") }
 apply { plugin("maven-publish") }

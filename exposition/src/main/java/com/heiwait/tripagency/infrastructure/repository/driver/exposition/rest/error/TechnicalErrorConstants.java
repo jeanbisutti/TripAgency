@@ -1,4 +1,4 @@
-package com.heiwait.tripagency.infrastructure.repository.driver.exposition.rest.error;
+package {{project_namespace}}.{{project_namespace}}.infrastructure.repository.driver.exposition.rest.error;
 
 class TechnicalErrorConstants {
 

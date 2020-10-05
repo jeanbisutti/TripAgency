@@ -5,19 +5,19 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.heiwait</groupId>
-        <artifactId>tripagency</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <groupId>{{project_namespace}}</groupId>
+        <artifactId>{{project_name}}</artifactId>
+        <version>{{project_version}}</version>
     </parent>
 
     <artifactId>e2e</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>{{project_version}}</version>
 
     <dependencies>
         <dependency>
-            <groupId>com.heiwait</groupId>
+            <groupId>{{project_namespace}}</groupId>
             <artifactId>domain</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>{{project_version}}</version>
         </dependency>
 
         <!-- Tests -->

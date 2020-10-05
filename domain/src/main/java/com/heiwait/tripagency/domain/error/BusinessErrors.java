@@ -1,8 +1,6 @@
-package com.heiwait.tripagency.domain.error;
+package {{project_namespace}}.{{project_name}}.domain.error;
 
 public enum BusinessErrors {
-
-    MISSING_DESTINATION("error.destination.missing");
 
     private final String code;
 

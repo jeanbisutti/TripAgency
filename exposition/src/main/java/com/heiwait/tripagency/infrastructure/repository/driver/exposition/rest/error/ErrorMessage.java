@@ -1,4 +1,4 @@
-package com.heiwait.tripagency.infrastructure.repository.driver.exposition.rest.error;
+package {{project_namespace}}.{{project_name}}.infrastructure.repository.driver.exposition.rest.error;
 
 public class ErrorMessage {
     private final String code;

@@ -96,9 +96,9 @@ This command should be executed after the execution of Cucumber tests. You can f
 
 ``
 java -jar ${CUKEDOCTOR_MAIN_JAR} 
-      -o "build/TripAgency/TripAgency_living_documentation-${PROJECT_VERSION}" 
-      -p "build/cucumber/TripAgency.json" 
-  	  -t "TripAgency_living_documentation" 
+      -o "build/{{project_name}}/{{project_name}}_living_documentation-${PROJECT_VERSION}" 
+      -p "build/cucumber/{{project_name}}.json" 
+  	  -t "{{project_name}}_living_documentation" 
   	  -f all 
   	  -numbered 
   	  -hideSummarySection 
@@ -123,9 +123,9 @@ you can start the rest exposition by executing the following command line in the
 **mvn clean spring-boot:run**  
 
 The url to use the service is the following:  
-**http://localhost:12378/trip-agency/swagger-ui/**
+**http://localhost:12378/{{project_name}}/swagger-ui/**
 
 ### Consulting the H2 DB
 Connect to this url:
-**http://localhost:12378/trip-agency/h2-console**
+**http://localhost:12378/{{project_name}}/h2-console**
 Fill the information regarding your configuration

@@ -4,11 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.heiwait</groupId>
-    <artifactId>tripagency</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>{{project_name}}</artifactId>
+    <version>{{project_version}}</version>
     <packaging>pom</packaging>
-    <name>TripAgency</name>
-    <description>Kata TripAgency</description>
+    <name>{{project_name}}</name>
 
     <modules>
         <module>domain</module>

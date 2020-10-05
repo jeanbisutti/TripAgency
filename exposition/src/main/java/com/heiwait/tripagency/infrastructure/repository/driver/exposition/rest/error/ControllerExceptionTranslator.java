@@ -1,7 +1,7 @@
-package com.heiwait.tripagency.infrastructure.repository.driver.exposition.rest.error;
+package {{project_namespace}}.{{project_name}}.infrastructure.repository.driver.exposition.rest.error;
 
-import com.heiwait.tripagency.domain.error.BusinessErrors;
-import com.heiwait.tripagency.domain.error.BusinessException;
+import {{project_namespace}}.{{project_name}}.domain.error.BusinessErrors;
+import {{project_namespace}}.{{project_name}}.domain.error.BusinessException;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
 import org.springframework.http.HttpStatus;

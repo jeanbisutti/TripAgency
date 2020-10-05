@@ -1,4 +1,4 @@
-package com.heiwait.tripagency.domain.error;
+package {{project_name}}.{{project_name}}.domain.error;
 
 public class BusinessException extends RuntimeException {
     private final BusinessErrors error;

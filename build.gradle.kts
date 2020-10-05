@@ -6,8 +6,8 @@ plugins {
 }
 
 allprojects {
-    group = "com.heiwait"
-    version = "0.0.1-SNAPSHOT"
+    group = "{{project_namespace}}"
+    version = "{{project_version}}"
 
     apply { plugin("java") }
     apply { plugin("maven-publish") }
@@ -61,7 +61,7 @@ allprojects {
     }
 }
 
-version = "0.0.1-SNAPSHOT"
+version = "{{project_version}}"
 tasks.compileJava {
     // use the project's version or define one directly
     options.javaModuleVersion.set(provider { project.version as String })
